@@ -25,10 +25,10 @@ def assign_rooms(attendees)
 end
 
 
-def printer
+def printer(name)
   badges = []
   room_assignments = []
-  
+
     badges << batch_badge_creator(name)
     room_assignments << room_assignments(name)
   puts badges room_assignments
