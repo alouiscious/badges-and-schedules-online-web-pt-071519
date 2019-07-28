@@ -28,12 +28,8 @@ end
 def printer
   badges = []
   room_assignments = []
-
-  attendees do |name|
-    badges << name
-    # badges << "Hello #{batch_badge_creator(name)}"
-    # room_assignments << "room_assignments(name)"
-  end
+    badges << "Hello #{batch_badge_creator(name)}"
+    room_assignments << "room_assignments(name)"
   puts badges room_assignments
 
 end
