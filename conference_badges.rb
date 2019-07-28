@@ -35,5 +35,5 @@ def printer(attendees)
 
       room_assignments << "my room number is #{name}"
     # end
-  puts badges.to_a
+  puts badges
 end
