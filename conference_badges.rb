@@ -26,11 +26,11 @@ def assign_rooms(attendees)
 end
 
 
-def printer(names)
+def printer(name)
   badges = []
   room_assignments = []
 
-  names do |name|
+  name do |name|
     badges << name
     # badges << "Hello #{batch_badge_creator(name)}"
     # room_assignments << "room_assignments(name)"
