@@ -33,5 +33,4 @@ def printer(attendees)
       room_assignments << assign_rooms(attendees)
     end
   puts badges room_assignments
-
 end
