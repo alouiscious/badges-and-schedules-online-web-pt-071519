@@ -26,7 +26,7 @@ def assign_rooms(attendees)
 end
 
 
-def printer(attendees)
+def printer
   badges = []
   room_assignments = []
 
