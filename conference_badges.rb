@@ -32,7 +32,7 @@ def printer(names)
     names.each |name|
 
     badges << "Hello #{batch_badge_creator(name)}"
-    room_assignments << room_assignments(name)
+    room_assignments << "room_assignments(name)"
   end
   puts badges room_assignments
 
