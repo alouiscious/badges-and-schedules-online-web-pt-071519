@@ -29,8 +29,10 @@ def printer(attendees)
   badges = []
   room_assignments = []
     attendees.each do
-    badges << batch_badge_creator(attendees)
-    room_assignments << assign_rooms(attendees)
+      badges << batch_badge_creator(attendees)
+      room_assignments << assign_rooms(attendees)
+    end
+    
   puts badges room_assignments
 
 end
