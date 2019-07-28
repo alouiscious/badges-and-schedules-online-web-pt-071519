@@ -28,8 +28,8 @@ end
 def printer(attendees)
   badges = []
   room_assignments = []
-    attendees do |name|
-      badges << "Hello, my name is #{name}"
+    attendees.each do |name|
+      badges << "Hello, my name is #{name[0]}"
       # room_assignments << assign_rooms(name)
     end
   puts badges
