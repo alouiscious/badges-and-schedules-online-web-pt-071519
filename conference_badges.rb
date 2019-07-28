@@ -30,7 +30,7 @@ def printer(attendees)
   room_assignments = []
     # attendees.each do |name|
     name = attendees[0]
-      badges = "Hello, my name is #{name}."
+      badges += "Hello, my name is #{name}."
       # badges << "Hello, my name is #{name}."
 
       room_assignments << "my room number is #{name}"
