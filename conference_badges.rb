@@ -30,7 +30,7 @@ def printer(attendees)
   room_assignments = []
     attendees[0] do |name|
       badges << "Hello, my name is #{name}."
-      badges << "Hello, my name is #{name}."
+      # badges << "Hello, my name is #{name}."
 
       room_assignments << assign_rooms(name)
     end
