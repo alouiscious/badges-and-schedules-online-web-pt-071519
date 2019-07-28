@@ -30,9 +30,9 @@ def printer(names)
   badges = []
   room_assignments = []
 
-  names.each do |names, rooms|
+  names.each do |names|
     badges << batch_badge_creator(names)
-    room_assignments << room_assignments(rooms)
+    room_assignments << room_assignments(names)
   end
   puts badges room_assignments
 
