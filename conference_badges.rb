@@ -16,7 +16,7 @@ def batch_badge_creator(names)
 
 end
 
-def assign_rooms(names)
+def assign_rooms(attendees)
 
   room_assignments = []
   attendees.each do |name|
@@ -26,7 +26,7 @@ def assign_rooms(names)
 end
 
 
-def printer(attendees)
+def printer(names)
 
   attendees.each do |name|
     batch_badge_creator(name)
