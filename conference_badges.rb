@@ -29,8 +29,8 @@ end
 def printer(names)
   badges = []
   room_assignments = []
-    names.each |name|
-
+  
+    names.each do |name|
     badges << "Hello #{batch_badge_creator(name)}"
     room_assignments << "room_assignments(name)"
   end
