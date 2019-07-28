@@ -32,7 +32,7 @@ def printer(attendees)
       badges << "Hello, my name is #{name}."
       # badges << "Hello, my name is #{name}."
 
-      room_assignments << assign_rooms(name)
+      room_assignments << "my room number is #{name}"
     end
   puts badges
 end
