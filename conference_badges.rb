@@ -33,6 +33,6 @@ def printer(attendees)
       badges << "Hello, my name is #{name}."
 
       room_assignments << assign_rooms(name)
-    # end
+    end
   puts badges
 end
